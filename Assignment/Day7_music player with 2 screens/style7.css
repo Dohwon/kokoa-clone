@@ -1,0 +1,311 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #f0f0f0;
+  }
+  
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .music-app {
+    width: 350px;
+    height: 650px;
+    margin: 20px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 16px 32px rgba(0,0,0,0.1);
+  }
+  
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .app-header .fa-arrow-left {
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+
+  .app-header .fa-search {
+    margin-top: 30px;
+    margin-right: 25px;
+  }
+  
+  .artist {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .artist-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px #C86F46;
+    margin-bottom: 30px;
+  }
+  
+  .artist-info span {
+    color: #2B2B2B;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .artist-info p {
+    color: #BEBEBE;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .play-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .play-controls__shuffle {
+    border-radius: 40px;
+    height: 35px;
+    width: 95px;
+    background-color: #222222;
+    box-shadow: 0 1px 4px lightgrey;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    margin-right: 30px;
+  }
+  
+  .play-controls__like {
+    border-radius: 40px;
+    height: 35px;
+    width: 95px;
+    background-color: white;
+    box-shadow: 0 1px 4px lightgrey;
+    color: #BEBEBE;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+  .play-controls__like .fas {
+    color: #222222;
+  }
+  
+  .song-list {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .song {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .song img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    margin-right: 15px;
+  }
+  
+  .song-info p {
+    color: #BEBEBE;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 7px;
+  }
+  
+  .song-info h2 {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+
+  }
+    
+  .song-list i {
+    margin-left: auto;
+    margin-right: 10px;
+    color: #BEBEBE;
+  }
+
+  .song-list .song:nth-of-type(2) {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px lightgray;
+    position: relative;
+  }
+
+  .song .fa-play {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    color: white;
+  }
+  
+  .now-playing {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    background: #222222;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 0 5px 10px lightgray;
+  }
+  
+  .now-playing__info p {
+    font-size: 12px;
+    color: #BEBEBE;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+
+  .now-playing__info h2 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+  }
+  
+  .now-playing__controls i {
+    padding: 10px;
+  }
+
+  .now-playing__controls .fa-step-backward {
+    padding-left: 78px;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: #f0f0f0;
+  }
+
+  .app-header .fa-arrow-left {
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+
+  .app-header .fa-ellipsis-v {
+    margin-top: 30px;
+    margin-right: 25px;
+  }
+  
+  .album-art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .album-art img {
+    width: 65%;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px #E86826;
+  }
+  
+  .track-info h2,
+  .track-info p {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .track-info h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #222222;
+    margin-top: 35px;
+  }
+
+  .track-info p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #bebebe;
+    margin-top: 10px;
+  }
+  
+  .time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 30px 0px 30px;
+    font-size: 12px;
+    color: #bebebe;
+  }
+
+  .time-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 4px;
+    background-color: #bebebe;
+    border-radius: 5px;
+    margin: 10px 25px 50px 25px; 
+  }
+  
+  .time-slider__slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .time-slider__progress {
+    position: absolute;
+    background-color: #222222;
+    width: 60%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .time-slider__thumb {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: #222222;
+    border-radius: 50%;
+  }
+  
+  .player-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+  }
+
+  .player-controls .fa-redo, .fa-random {
+    color: #bebebe;
+  }
+  
+  .player-controls__play {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #222222;
+    box-shadow: 0 4px 8px #bebebe;
+    position: relative;
+    margin-top: -15px;
+  }
+
+  .player-controls__play i {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: white;   
+  }
+  

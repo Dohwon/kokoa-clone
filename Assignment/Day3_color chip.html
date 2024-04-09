@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <style>
+        p {
+            text-align: center;
+            font-size: 32px;
+        }
+        body {
+            height: 100vh;
+            margin: 20px;
+            background-color: whitesmoke;
+        }
+        div {
+            height: 350px;
+            width: 200px;
+            color: black;
+            border: 3px solid white;
+        }
+        #first {
+            background-color: tomato;
+            position: absolute;
+            left: 350px;
+            top: 150px;
+        }
+        #second {
+            background-color: teal;
+            position: absolute;
+            right: 350px;
+            top: 150px;
+        }
+        #third {
+            background-color: burlywood;
+            position: absolute;
+            left: 350px;
+            bottom: 30px;
+        }
+        #last {
+            background-color: thistle;
+            position: absolute;
+            right: 350px;
+            bottom: 30px;
+        }
+        div div {
+            position:relative;
+            top: 20px;
+            background-color: white;
+            height: 50px;
+            line-height: 50px;
+            font-size: 22px;
+        }
+        div div~div {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <p>The Best Colors</p>
+    <div id="first">
+        <div>Tomato</div>
+            <div>#FF6347</div>
+        </div>
+    </div>
+    <div id="second">
+        <div>Teal</div>
+            <div>#008080</div>
+        </div>
+    </div>
+    <div id="third">
+        <div>Burlywood</div>
+            <div>#DEB887</div>
+        </div>
+    </div>
+    <div id="last">
+        <div>Thistle</div>
+            <div>#D7BFD7</div>
+        </div>
+    </div>
+  </body>
+</html>

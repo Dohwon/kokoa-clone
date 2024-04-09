@@ -1,0 +1,71 @@
+<!DOCTYPE html>   <!--Doc type이 html임을 알려줘야 함-->
+<html lang="ko">  <!--언어 인식을 위함-->
+    <head>   <!--html은 head와 body로 이루어짐, head는 상단 탭에 관여-->
+        <title>Home - My first website.</title>
+        <link>     <!--파비콘 변경-->
+            rel="shortcut icon"
+            sizes="16x16 32x32 64x64"
+            href="https://nomadcoders.co/m.png"
+        />
+        <meta charset="utf-8" />
+        <meta name="description" content="This is my website"/>
+    </head>
+    <body>  
+        <p>lalalalalaallalaa</p>
+        <pre>lalaalalalalalalalaa</pre>    <!--조금 더 정돈된 느낌-->
+        <p>My name is <abbr title="dowon kim">Dowon</abbr></p> <!--마우스오버 기능-->
+        <p>I like to live in <mark>South Korea</mark></p>  <!--형광펜-->
+        <p>I like to live in <strong>South Korea</mark></p>  <!--볼드처리-->
+        
+        <form>   <!--입력폼 만들기, input과 함께 사용-->
+            <div> 
+                <label for="profile">Profile Photo</label>
+            </div>
+            <div>
+                <input id="profile" type="file" accept=".png, .pdf"/>
+            </div>
+            <input type="file" accept=".pdf, image/*"/>
+            <input type="color"/>
+            <input required placeholder="Name" type="text"/>
+            <input placeholder="Last Name"type="text"/>
+            <input placeholder="User Name" minlenth="10" type="text"/>
+            <input type="password"/>
+            <input type="submit" value="Create Account"/>
+            <input type="submit" disabled value="Create Account"/>
+            
+        <header>
+            <h1>Hello this is my website!</h1>
+        </header>
+        <div id="header"> <!--예전에 많이 사용하던 방식-->
+            <h1>The dowon time</h1>
+        </div>
+        <main>
+            <p>hello!</p>
+            <span>hello!</span>  <!--span은 short sentence, <p>를 대체-->
+        </main>
+        <footer>
+            <p>&copy; footer</p>
+        </footer>
+        <h2>Hello this is my website!</h2>
+        <h3>Hello this is my website!</h3>
+        <h4>Hello this is my website!</h4>
+        <h5>Hello this is my website!</h5>
+        <h6 href="http://google.com">Hello this is my website!</h6>
+
+        <ul>
+            <li>beer</li>
+            <li>김치</li>
+            <li>beer</li>
+            <li>milk</li>
+        </ul>
+
+        <ol>
+            <li>beer</li>
+            <li>김치</li>
+            <li>beer</li>
+            <li>milk</li>
+        </ol>
+
+        <img src="스크린샷 2023-11-07 134356.png"/>  <!--src는 이미지에만 사용-->
+    </body>
+</html> 
